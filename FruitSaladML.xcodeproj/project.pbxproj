@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA44D0B4260A9B0F003564F8 /* FruitClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DA44D0B3260A9B0F003564F8 /* FruitClassifier.mlmodel */; };
 		DA7DB05926094C6C005ACD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DB05826094C6C005ACD68 /* AppDelegate.swift */; };
 		DA7DB05B26094C6C005ACD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DB05A26094C6C005ACD68 /* SceneDelegate.swift */; };
 		DA7DB05D26094C6C005ACD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DB05C26094C6C005ACD68 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA44D0B3260A9B0F003564F8 /* FruitClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FruitClassifier.mlmodel; sourceTree = "<group>"; };
 		DA7DB05526094C6C005ACD68 /* FruitSaladML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitSaladML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7DB05826094C6C005ACD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA7DB05A26094C6C005ACD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		DA7DB05726094C6C005ACD68 /* FruitSaladML */ = {
 			isa = PBXGroup;
 			children = (
+				DA44D0B3260A9B0F003564F8 /* FruitClassifier.mlmodel */,
 				DA7DB05826094C6C005ACD68 /* AppDelegate.swift */,
 				DA7DB05A26094C6C005ACD68 /* SceneDelegate.swift */,
 				DA7DB05C26094C6C005ACD68 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			files = (
 				DA7DB05D26094C6C005ACD68 /* ViewController.swift in Sources */,
 				DA7DB05926094C6C005ACD68 /* AppDelegate.swift in Sources */,
+				DA44D0B4260A9B0F003564F8 /* FruitClassifier.mlmodel in Sources */,
 				DA7DB05B26094C6C005ACD68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
